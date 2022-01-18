@@ -1,0 +1,57 @@
+.card{
+    font-family: "Gilroy", sans-serif;
+    color: #000;
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    border: none;
+}
+
+.card i{
+    margin-right: 10px;
+    opacity: 0.8;
+}
+
+.card hr{
+    opacity: 0.1;
+}
+
+.card h5{
+    font-weight: 800;
+}
+
+.card p{
+    opacity: 0.8;
+    font-weight: 800;
+    font-size: 13px;
+}
+
+.card h6{
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.card .otherDetails{
+    border-radius: 10px;
+    padding: 10px;
+    border: 1px solid rgb(214, 214, 214);
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.card .otherDetails i{
+    color: #8018FA;
+    opacity: 1;
+}
+
+.card .btn,
+.card .btn:active,
+.card .btn:hover {
+  color: #fff;
+  font-weight: 500;
+  background-image: linear-gradient(to right, #a909f7, #7d19fa);
+  border-radius: 50px;
+  box-shadow: none;
+  border: none;
+}

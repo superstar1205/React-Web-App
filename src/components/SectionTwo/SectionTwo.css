@@ -1,0 +1,9 @@
+.sectionTwo {
+  background-color: #17161b;
+}
+
+@media(max-width: 768px), (max-width:992px){
+  .sectionTwo img{
+    margin-top: 100px;
+  }
+}

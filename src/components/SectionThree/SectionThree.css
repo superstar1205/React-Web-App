@@ -1,0 +1,12 @@
+.sectionThree {
+  background-color: #7d19fa;
+}
+
+@media (max-width: 768px), (max-width: 992px) {
+  .sectionThree .row {
+    flex-flow: column-reverse;
+  }
+  .sectionThree img {
+    margin-top: 100px;
+  }
+}

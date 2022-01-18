@@ -1,0 +1,12 @@
+.sectionOne {
+  background-color: #a909f7;
+}
+
+@media(max-width: 768px), (max-width:992px){
+  .sectionOne .row{
+    flex-flow: column-reverse;
+  }
+  .sectionOne img{
+    margin-top: 100px;
+  }
+}

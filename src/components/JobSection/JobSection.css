@@ -1,0 +1,54 @@
+.filterSection{
+    font-family: "Gilroy", sans-serif;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-image: linear-gradient(to right, #A909F7 , #7D19FA);
+}
+
+.filterSection p{
+    color: #fff;
+    font-weight: 700;
+}
+
+.filterSection .filterOptions{
+    margin-top: 20px;
+}
+
+.filterSection h1{
+    color: #fff;
+    font-size: 50px;
+    font-weight: 800;
+}
+
+.filterSection .btn,
+.filterSection .btn:active,
+.filterSection .btn:hover {
+  padding-left: 65px;
+  padding-right: 65px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  color: #0f0f0f;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #fff;
+  border-radius: 50px;
+  box-shadow: none;
+  border: none;
+}
+
+.jobSection{
+    font-family: "Gilroy", sans-serif;
+    padding-top: 50px;
+    padding-bottom: 150px;
+    background-color: #17161b;
+}
+
+.jobSection .resultShowing{
+    color: #fff;
+}
+
+@media(max-width: 768px){
+    .filterSection .filterOptions p{
+        margin-top: 15px;
+    }
+}
