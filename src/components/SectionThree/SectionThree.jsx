@@ -14,6 +14,7 @@ const SectionThree = () => {
               sTitle="match your jobs with various filters"
               desc="we provide you with various filters to find your perfect jobs. currently we supports filters based on job sectors, job locations, job category and post type. still we are figuring out with different filters to serve you better."
               btnTxt="Match Now"
+              link="/jobs"
             />
           </div>
           <div className="col-lg-6 text-center my-auto">

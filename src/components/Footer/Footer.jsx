@@ -2,6 +2,7 @@ import React from "react";
 import "./Footer.css";
 import Logo from "../../assets/images/Logo.png"
 import { NavLink } from "react-router-dom";
+import { FaFacebook, FaInstagram, FaTwitter, FaGooglePlay, FaGlobe } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -30,15 +31,15 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 col-sm-6 col-6">
             <h4>social</h4>
             <p>
-              <i className="fab fa-facebook" />
+              <FaFacebook style={style.icons}/>
               facebook
             </p>
             <p>
-              <i className="fab fa-instagram" />
+              <FaInstagram style={style.icons}/>
               instagram
             </p>
             <p>
-              <i className="fab fa-twitter" />
+              <FaTwitter style={style.icons}/>
               twitter
             </p>
           </div>
@@ -57,12 +58,8 @@ const Footer = () => {
           <div className="col-lg-3 col-md-6 col-sm-6 col-6">
             <h4>downloads</h4>
             <p>
-              <i className="fab fa-google-play" />
+              <FaGooglePlay style={style.icons}/>
               android
-            </p>
-            <p>
-              <i className="fab fa-apple" />
-              apple
             </p>
           </div>
         </div>
@@ -73,7 +70,7 @@ const Footer = () => {
           </div>
           <div className="col-lg-6 col-md-4 col-sm-4 col-3 text-end">
             <p>
-              <i className="fas fa-globe" />
+              <FaGlobe style={style.icons}/>
               English
             </p>
           </div>
@@ -82,5 +79,11 @@ const Footer = () => {
     </section>
   );
 };
+
+const style ={
+  icons:{
+    marginRight: 10
+  }
+}
 
 export default Footer;

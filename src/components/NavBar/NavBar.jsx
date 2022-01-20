@@ -1,6 +1,7 @@
 import React from "react";
 import "./NavBar.css";
 import Logo from "../../assets/images/Logo.png"
+import { FaBars } from "react-icons/fa"
 import { NavLink } from "react-router-dom";
 
 const NavBar = () => {
@@ -20,7 +21,7 @@ const NavBar = () => {
             aria-expanded="false"
             aria-label="Toggle navigation"
           >
-            <span className="fas fa-bars"></span>
+            <span><FaBars/></span>
           </button>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav ms-auto">

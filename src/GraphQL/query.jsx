@@ -38,6 +38,14 @@ const ABOUT = gql`
   }
 `;
 
+const CONTACT = gql`
+  query {
+    contact {
+      body
+    }
+  }
+`;
+
 const PRIVACY = gql`
   query {
     privacy {
@@ -63,4 +71,4 @@ const DISCLAIMER = gql`
 `;
 
 
-export { JOB_LIST, ABOUT, PRIVACY, TERMS, DISCLAIMER };
+export { JOB_LIST, ABOUT, PRIVACY, TERMS, DISCLAIMER, CONTACT };

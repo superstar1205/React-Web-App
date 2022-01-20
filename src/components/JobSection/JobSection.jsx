@@ -172,6 +172,7 @@ const JobSection = () => {
                     jobType={job.jobType.type}
                     jobSector={job.jobSector.sector}
                     jobCategory={job.jobCategory.category}
+                    externalLink={job.externalLink}
                   />
                 </div>
               );
