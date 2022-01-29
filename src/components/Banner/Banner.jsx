@@ -1,6 +1,6 @@
 import React from "react";
 import "./Banner.css";
-import { FaGooglePlay } from 'react-icons/fa';
+import { FaGooglePlay } from "react-icons/fa";
 
 const Banner = () => {
   return (
@@ -9,7 +9,17 @@ const Banner = () => {
         <div className="row text-center">
           <div className="col-lg-12">
             <h1>easiest way to find your perfect job.</h1>
-            <button className="btn"><FaGooglePlay style={style.icon}/> Download App</button>
+            <button
+              className="btn"
+              onClick={() => {
+                window.open(
+                  `https://play.google.com/store/apps/details?id=apnicareer.com`,
+                  "_blank"
+                );
+              }}
+            >
+              <FaGooglePlay style={style.icon} /> Download App
+            </button>
           </div>
         </div>
       </div>
@@ -18,9 +28,9 @@ const Banner = () => {
 };
 
 const style = {
-  icon:{
-    marginRight: 10
-  }
-}
+  icon: {
+    marginRight: 10,
+  },
+};
 
 export default Banner;

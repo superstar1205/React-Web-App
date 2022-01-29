@@ -1,53 +1,61 @@
-.footer{
-    font-family: "Gilroy", sans-serif;
-    background-color: #17161B;
-    padding-top: 100px;
-    padding-bottom: 10px;
+.footer {
+  font-family: "Gilroy", sans-serif;
+  background-color: #17161b;
+  padding-top: 100px;
+  padding-bottom: 10px;
 }
 
-.footer a:link, a:active, a:visited, a:hover{
-    text-decoration: none;
+.footer a:link,
+a:active,
+a:visited,
+a:hover {
+  text-decoration: none;
 }
 
-.footer h3{
-    color: #fff;
-    font-weight: 800;
+.footer h3 {
+  color: #fff;
+  font-weight: 800;
 }
 
-.footer .links{
-    margin-top: 30px;
-    margin-bottom: 50px;
+.footer .links {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
-.footer .links h4{
-    color: #fff;
-    font-size: 20px;
-    font-weight: 700;
-    margin-bottom: 15px;
+.footer .links a {
+  text-decoration: none;
+  color: #fff;
 }
 
-.footer p{
-    color: #fff;
-    font-size: medium;
-    font-weight: 500;
-    opacity: 0.4;
+.footer .links h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 15px;
 }
 
-.footer hr{
-    color: #fff;
-    opacity: 0.1;
+.footer p {
+  color: #fff;
+  font-size: medium;
+  font-weight: 500;
+  opacity: 0.4;
 }
 
-.copyright{
-    margin-top: 30px;
+.footer hr {
+  color: #fff;
+  opacity: 0.1;
 }
 
-@media(max-width: 576px){
-    .footer{
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-    .copyright p{
-        font-size: small;
-    }
+.copyright {
+  margin-top: 30px;
+}
+
+@media (max-width: 576px) {
+  .footer {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  .copyright p {
+    font-size: small;
+  }
 }
