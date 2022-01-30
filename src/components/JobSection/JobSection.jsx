@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import Loader from "../Loader/Loader";
 import Card from "../Card/Card";
 import "./JobSection.css";
 import { useQuery } from "@apollo/client";
@@ -107,7 +108,7 @@ const JobSection = () => {
     }
   };
 
-  if (loading) return <NetworkMessage message="Loading..." />;
+  if (loading) return <Loader/>;
 
   return jobs ? (
     <>

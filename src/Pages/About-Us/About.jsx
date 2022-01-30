@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Helmet from "react-helmet";
+import Loader from "../../components/Loader/Loader";
 import { useQuery } from "@apollo/client";
 import { ABOUT } from "../../GraphQL/query";
 import Company from "../../components/Company/Company";
@@ -14,7 +15,7 @@ const About = () => {
     if (data) setAbout(data.about[0]);
   }, [data]);
 
-  if (loading) return <NetworkMessage message="Loading..." />;
+  if (loading) return <Loader/>;
 
   return about ? (
     <>
