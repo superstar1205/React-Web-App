@@ -1,23 +1,23 @@
-.filterSection{
-    font-family: "Gilroy", sans-serif;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    background-image: linear-gradient(to right, #A909F7 , #7D19FA);
+.filterSection {
+  font-family: "Gilroy", sans-serif;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background-image: linear-gradient(to right, #a909f7, #7d19fa);
 }
 
-.filterSection p{
-    color: #fff;
-    font-weight: 700;
+.filterSection p {
+  color: #fff;
+  font-weight: 700;
 }
 
-.filterSection .filterOptions{
-    margin-top: 20px;
+.filterSection .filterOptions {
+  margin-top: 20px;
 }
 
-.filterSection h1{
-    color: #fff;
-    font-size: 50px;
-    font-weight: 800;
+.filterSection h1 {
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800;
 }
 
 .filterSection .btn,
@@ -36,19 +36,34 @@
   border: none;
 }
 
-.jobSection{
-    font-family: "Gilroy", sans-serif;
-    padding-top: 50px;
-    padding-bottom: 150px;
-    background-color: #17161b;
+.jobSection {
+  font-family: "Gilroy", sans-serif;
+  padding-top: 50px;
+  padding-bottom: 150px;
+  background-color: #17161b;
 }
 
-.jobSection .resultShowing{
-    color: #fff;
+.jobSection .resultShowing {
+  color: #fff;
 }
 
-@media(max-width: 768px){
-    .filterSection .filterOptions p{
-        margin-top: 15px;
-    }
+.jobSection .loadMoreBtn,
+.jobSection .loadMoreBtn:active,
+.jobSection .loadMoreBtn:hover {
+  background-image: linear-gradient(to right, #a909f7, #7d19fa);
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  color: #fff;
+  font-weight: 700;
+  font-size: larger;
+  width: 200px;
+  box-shadow: none;
+  border: none;
+}
+
+@media (max-width: 768px) {
+  .filterSection .filterOptions p {
+    margin-top: 15px;
+  }
 }

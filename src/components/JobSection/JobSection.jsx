@@ -108,7 +108,18 @@ const JobSection = () => {
     }
   };
 
-  if (loading) return <Loader/>;
+  const [jobsVisible, setJobVisible] = useState(3);
+
+  const showMoreJobs = () => {
+    const length = jobs?.length
+    if(jobsVisible>=length){
+      alert("No more notifications available at this point of time :)")
+    }else{
+      setJobVisible((preValue) => preValue + (length-preValue));
+    }
+  };
+
+  if (loading) return <Loader />;
 
   return jobs ? (
     <>
@@ -155,9 +166,9 @@ const JobSection = () => {
         <div className="container">
           <div className="row">
             <p className="resultShowing">
-              showing {jobs.length} of {jobs.length} total results
+              showing {jobsVisible} of {jobs.length} total results
             </p>
-            {jobs.map((job, i) => {
+            {jobs.slice(0, jobsVisible).map((job, i) => {
               return (
                 <div key={job.id} className="col-lg-4">
                   <Card
@@ -178,6 +189,11 @@ const JobSection = () => {
                 </div>
               );
             })}
+          </div>
+          <div className="row">
+            <button className="btn loadMoreBtn" onClick={showMoreJobs}>
+              Show More
+            </button>
           </div>
         </div>
       </div>
