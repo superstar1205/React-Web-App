@@ -1,7 +1,7 @@
 {
   "name": "webapp",
   "version": "0.1.0",
-  "homepage": "https://akhil-s-kumar.github.io/apnicareer-webapp",
+  "homepage": "https://apnicareer.com",
   "private": true,
   "dependencies": {
     "@apollo/client": "^3.5.6",
