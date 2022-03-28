@@ -2,20 +2,44 @@ import React, { useState, useEffect } from "react";
 import Loader from "../Loader/Loader";
 import Card from "../Card/Card";
 import "./JobSection.css";
+/* For Server
 import { useQuery } from "@apollo/client";
 import { JOB_LIST } from "../../GraphQL/query";
+*/
 import Filter from "../Filter/Filter";
 import NetworkMessage from "../NetworkMessage/NetworkMessage";
 
 const filterValue = ["All", "All", "All", "All"];
 
 const JobSection = () => {
+  /* For Server
   const { data, loading } = useQuery(JOB_LIST);
+  */
+
+  // For Github
+  const [data, setData] = useState();
+  //
 
   const [jobs, setJobs] = useState();
+
+  /* For Server
   useEffect(() => {
     if (data) setJobs(data.allJob);
   }, [data]);
+  */
+
+  //For Github
+  useEffect(() =>{
+    loadData();
+  }, []);
+
+  const loadData = async () => {
+    const response = await fetch('https://api.apnicareer.com');
+    const data = await response.json();
+    setData(data?.data);
+    setJobs(data?.data.allJob);
+  }
+  //
 
   const jobTypeDataforFilter = () => {
     return [
@@ -119,7 +143,13 @@ const JobSection = () => {
     }
   };
 
+  /* For Server
   if (loading) return <Loader />;
+  */
+
+  // For Github
+  if (jobs == null) return <Loader />;
+  //
 
   return jobs ? (
     <>
