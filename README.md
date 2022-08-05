@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+![apnicareer-website-cover](https://github.com/akhil-s-kumar/apnicareer-webapp/blob/master/Screenshots/main-screen.jpg?raw=true)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Apni Career Webapp
 
-## Available Scripts
+<p align="left">
+    <a href="https://github.com/akhil-s-kumar/apnicareer-webapp/issues" alt="Issues">
+        <img src="https://img.shields.io/github/issues/akhil-s-kumar/apnicareer-webapp" /></a>
+    <a href="https://github.com/akhil-s-kumar/apnicareer-webapp/pulls" alt="Pull Requests">
+        <img src="https://img.shields.io/github/issues-pr/akhil-s-kumar/apnicareer-webapp" /></a>
+    <a href="https://github.com/akhil-s-kumar/apnicareer-webapp/network/members" alt="Forks">
+        <img src="https://img.shields.io/github/forks/akhil-s-kumar/apnicareer-webapp" /></a>
+    <a href="https://github.com/akhil-s-kumar/apnicareer-webapp/stargazers" alt="Stars">
+        <img src="https://img.shields.io/github/stars/akhil-s-kumar/apnicareer-webapp" /></a>
+</p>
 
-In the project directory, you can run:
+## 💽 Installation Instructions
 
-### `npm start`
+If you want to work with this project make sure to follow the steps below!
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+1. Make sure to install [Node](https://nodejs.org/en/)
+2. Create a project folder
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+```bash
+$ mkdir apnicareer-Website
+$ cd apnicareer-Website
+```
 
-### `npm test`
+3. Clone the repository
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+```bash
+$ git clone https://github.com/akhil-s-kumar/apnicareer-webapp.git
+$ cd apnicareer-webapp
+```
 
-### `npm run build`
+4. Open in VS Code
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+code .
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🚀 Quick start
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1.  **Run apnicareer site.**
 
-### `npm run eject`
+```bash
+npm start
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+Your site is now running at [localhost:3000](http://localhost:3000)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## ✨ How you can contribute to this project?
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1. Fork this project to your GitHub account
+2. Connect the cloned project folder to your forked GitHub repository.
+3. Find an [issue or feature](https://github.com/akhil-s-kumar/apnicareer-webapp/issues) and work on it.
+4. Make a pull request.
