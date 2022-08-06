@@ -11,11 +11,27 @@ import Disclaimer from "./Pages/Disclaimer/Disclaimer";
 import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
-
-import Theme from "./components/Theme";
-
+// DarkMode
+import Darkmode from 'darkmode-js';
 
 const App = () => {
+
+  const options = {
+    bottom: '32px', // default: '32px'
+    right: '32px', // default: '32px'
+    // left: '32px', // default: 'unset'
+    time: '0.5s', // default: '0.3s'
+    mixColor: '#fff', // default: '#fff'
+    backgroundColor: '#fff',  // default: '#fff'
+    buttonColorDark: '#fff',  // default: '#100f2c'
+    buttonColorLight: '#100f2c', // default: '#fff'
+    saveInCookies: false, // default: true,
+    label: '🌓', // default: ''
+    autoMatchOsTheme: true // default: true
+  }
+  const darkmode = new Darkmode(options);
+  darkmode.showWidget();
+  
   return (
     <>
       <ScrollToTop />
@@ -29,7 +45,6 @@ const App = () => {
         <Route exact path="terms" element={<Terms />} />
         <Route exact path="disclaimer" element={<Disclaimer />} />
       </Routes>
-      <Theme />
       <Footer />
     </>
   );

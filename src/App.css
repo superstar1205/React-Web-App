@@ -25,19 +25,8 @@
  body {
    background-color: #17161b;
  }
+ .darkmode-toggle {
+  z-index: 1;
+  filter: drop-shadow( 0 4px 30px rgba(0, 0, 0, 0.3));
 
- /* this class will be toggled */
- .dark-mode {
-   /* filter: invert(100%) */
-   /* filter: invert(1) hue-rotate(180deg) */
-   filter: invert(1) hue-rotate(180deg)
-   /* background-color: #fff !important; */
- }
- .invert {
-   /* filter: invert(100%) */
-   filter: invert(1) hue-rotate(180deg)
- }
-
- * {
-   /* outline: 1px solid white; */
- }
+}

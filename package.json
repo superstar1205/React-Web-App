@@ -9,6 +9,7 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "darkmode-js": "^1.5.7",
     "graphql": "^16.2.0",
     "html-react-parser": "^1.4.5",
     "react": "^17.0.2",
