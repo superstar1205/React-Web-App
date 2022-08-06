@@ -26,6 +26,18 @@
    background-color: #17161b;
  }
 
+ /* this class will be toggled */
+ .dark-mode {
+   /* filter: invert(100%) */
+   /* filter: invert(1) hue-rotate(180deg) */
+   filter: invert(1) hue-rotate(180deg)
+   /* background-color: #fff !important; */
+ }
+ .invert {
+   /* filter: invert(100%) */
+   filter: invert(1) hue-rotate(180deg)
+ }
+
  * {
    /* outline: 1px solid white; */
  }
