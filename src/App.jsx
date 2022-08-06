@@ -12,6 +12,9 @@ import NavBar from "./components/NavBar/NavBar";
 import Footer from "./components/Footer/Footer";
 import { Route, Routes } from "react-router-dom";
 
+import Theme from "./components/Theme";
+
+
 const App = () => {
   return (
     <>
@@ -19,13 +22,14 @@ const App = () => {
       <NavBar />
       <Routes>
         <Route exact path="/" element={<Home />} />
-        <Route exact path="jobs" element={<Findjobs/>} />
-        <Route exact path="about" element={<About/>} />
-        <Route exact path="contact" element={<Contact/>} />
-        <Route exact path="privacy" element={<Privacy/>} />
-        <Route exact path="terms" element={<Terms/>} />
-        <Route exact path="disclaimer" element={<Disclaimer/>} />
+        <Route exact path="jobs" element={<Findjobs />} />
+        <Route exact path="about" element={<About />} />
+        <Route exact path="contact" element={<Contact />} />
+        <Route exact path="privacy" element={<Privacy />} />
+        <Route exact path="terms" element={<Terms />} />
+        <Route exact path="disclaimer" element={<Disclaimer />} />
       </Routes>
+      <Theme />
       <Footer />
     </>
   );
