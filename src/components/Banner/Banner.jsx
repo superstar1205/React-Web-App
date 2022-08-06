@@ -10,7 +10,7 @@ const Banner = () => {
           <div className="col-lg-12">
             <h1>easiest way to find your perfect job.</h1>
             <button
-              className="btn"
+              className="btn darkmode-ignore"
               onClick={() => {
                 window.open(
                   `https://play.google.com/store/apps/details?id=apnicareer.com`,

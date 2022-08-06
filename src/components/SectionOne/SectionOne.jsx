@@ -5,7 +5,7 @@ import exploreImg from "../../assets/images/Explore.png";
 
 const SectionOne = () => {
   return (
-    <section className="sectionOne">
+    <section className="sectionOne darkmode-ignore w-100">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 my-auto">

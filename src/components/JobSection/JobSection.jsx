@@ -153,7 +153,7 @@ const JobSection = () => {
 
   return jobs ? (
     <>
-      <div className="filterSection">
+      <div className="filterSection darkmode-ignore w-100">
         <div className="container">
           <div className="row">
             <div className="col-lg-12">
@@ -221,7 +221,7 @@ const JobSection = () => {
             })}
           </div>
           <div className="row">
-            <button className="btn loadMoreBtn" onClick={showMoreJobs}>
+            <button className="btn loadMoreBtn  darkmode-ignore" onClick={showMoreJobs}>
               Show More
             </button>
           </div>

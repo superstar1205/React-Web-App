@@ -12,7 +12,7 @@ import {
 
 const Footer = () => {
   return (
-    <section className="footer">
+    <section className="footer darkmode-ignore w-100">
       <div className="container">
         <div className="row">
           <div className="col-lg-12">

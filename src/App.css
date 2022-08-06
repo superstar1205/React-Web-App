@@ -1,27 +1,32 @@
-@font-face {
-  font-family: "Gilroy";
-  src: url("../src/assets/fonts/Gilroy-Black.ttf") format("truetype");
-  font-weight: 900;
-}
+ @font-face {
+   font-family: "Gilroy";
+   src: url("../src/assets/fonts/Gilroy-Black.ttf") format("truetype");
+   font-weight: 900;
+ }
 
-@font-face {
-  font-family: "Gilroy";
-  src: url("../src/assets/fonts/Gilroy-Bold.ttf") format("truetype");
-  font-weight: 800;
-}
+ @font-face {
+   font-family: "Gilroy";
+   src: url("../src/assets/fonts/Gilroy-Bold.ttf") format("truetype");
+   font-weight: 800;
+ }
 
-@font-face {
-  font-family: "Gilroy";
-  src: url("../src/assets/fonts/Gilroy-Medium.ttf") format("truetype");
-  font-weight: 700;
-}
+ @font-face {
+   font-family: "Gilroy";
+   src: url("../src/assets/fonts/Gilroy-Medium.ttf") format("truetype");
+   font-weight: 700;
+ }
 
-@font-face {
-  font-family: "Gilroy";
-  src: url("../src/assets/fonts/Gilroy-Regular.ttf") format("truetype");
-  font-weight: 500;
-}
+ @font-face {
+   font-family: "Gilroy";
+   src: url("../src/assets/fonts/Gilroy-Regular.ttf") format("truetype");
+   font-weight: 500;
+ }
 
-body {
-  background-color: #17161b;
+ body {
+   background-color: #17161b;
+ }
+ .darkmode-toggle {
+  z-index: 1;
+  filter: drop-shadow( 0 4px 30px rgba(0, 0, 0, 0.3));
+
 }

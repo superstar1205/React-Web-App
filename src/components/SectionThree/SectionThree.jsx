@@ -5,7 +5,7 @@ import filterImg from "../../assets/images/Filter.png";
 
 const SectionThree = () => {
   return (
-    <section className="sectionThree">
+    <section className="sectionThree darkmode-ignore w-100">
       <div className="container">
         <div className="row">
           <div className="col-lg-6 my-auto">
