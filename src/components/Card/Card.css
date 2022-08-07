@@ -1,6 +1,7 @@
 .card{
     font-family: "Gilroy", sans-serif;
-    color: #000;
+    background-color: #1D1B21;
+    color: #fff;
     margin: 0 auto;
     float: none;
     margin-bottom: 20px;
@@ -44,4 +45,12 @@
   border-radius: 50px;
   box-shadow: none;
   border: none;
+}
+
+.darkmode--activated .card{
+    background-color: #fff;
+    color: #1A1A1A;
+}
+.darkmode--activated .card p{
+    color: #1A1A1A;
 }

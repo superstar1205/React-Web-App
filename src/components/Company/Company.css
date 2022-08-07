@@ -1,4 +1,5 @@
 .company {
+  background-color: #17161B;
   font-family: "Gilroy", sans-serif;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -18,5 +19,13 @@
 .company h3,
 .company li {
   padding-top: 30px;
+  color: #fff;
+}
+
+.darkmode--activated h1,
+.darkmode--activated h2,
+.darkmode--activated h3,
+.darkmode--activated p,
+.darkmode--activated li {
   color: #fff;
 }
